@@ -1,0 +1,33 @@
+[debug] [zinc] IncrementalCompile -----------
+[debug] IncrementalCompile.incrementalCompile
+[debug] previous = Stamps for: 8 products, 2 sources, 2 libraries
+[debug] current source = Set(${BASE}/src/main/scala/CubeCalculator.scala, ${BASE}/src/main/scala/example/Main.scala, ${BASE}/src/main/scala/example/SimpleParser.scala)
+[debug] > initialChanges = InitialChanges(Changes(added = Set(${BASE}/src/main/scala/CubeCalculator.scala), removed = Set(), changed = Set(${BASE}/src/main/scala/example/Main.scala), unmodified = ...),Set(${BASE}/target/scala-2.13/classes/example/Main$delayedInit$body.class, ${BASE}/target/scala-2.13/classes/example/Main$.class, ${BASE}/target/scala-2.13/classes/example/Main.class),Set(),API Changes: Set())
+[debug] 
+[debug] Initial source changes:
+[debug] 	removed: Set()
+[debug] 	added: Set(${BASE}/src/main/scala/CubeCalculator.scala)
+[debug] 	modified: Set(${BASE}/src/main/scala/example/Main.scala)
+[debug] Invalidated products: Set(${BASE}/target/scala-2.13/classes/example/Main$delayedInit$body.class, ${BASE}/target/scala-2.13/classes/example/Main$.class, ${BASE}/target/scala-2.13/classes/example/Main.class)
+[debug] External API changes: API Changes: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated classes: Set(example.Main)
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set(${BASE}/src/main/scala/example/Main.scala)
+[debug] 	binary dep: Set()
+[debug] 	external source: Set()
+[debug] All initially invalidated classes: Set(example.Main)
+[debug] All initially invalidated sources:Set(${BASE}/src/main/scala/CubeCalculator.scala, ${BASE}/src/main/scala/example/Main.scala)
+[debug] Initial set of included nodes: example.Main
+[debug] Recompiling all sources: number of invalidated sources > 50.0% of all sources
+[debug] compilation cycle 1
+[info] compiling 3 Scala sources to C:\Users\sbhch\IdeaProjects\SbtExampleProject\target\scala-2.13\classes ...
+[debug] Getting org.scala-sbt:compiler-bridge_2.13:1.5.7:compile for Scala 2.13.6
+[debug] [zinc] Running cached compiler 6ccf7408 for Scala compiler version 2.13.6
+[debug] [zinc] The Scala compiler is invoked with:
+[debug] 	-bootclasspath
+[debug] 	C:\Users\sbhch\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.6\scala-library-2.13.6.jar
+[debug] 	-classpath
+[debug] 	C:\Users\sbhch\IdeaProjects\SbtExampleProject\target\scala-2.13\classes;C:\Users\sbhch\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.13\1.1.2\scala-parser-combinators_2.13-1.1.2.jar;C:\Users\sbhch\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest_2.13\3.0.8\scalatest_2.13-3.0.8.jar;C:\Users\sbhch\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jsoup\jsoup\1.12.1\jsoup-1.12.1.jar;C:\Users\sbhch\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalactic\scalactic_2.13\3.0.8\scalactic_2.13-3.0.8.jar;C:\Users\sbhch\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.6\scala-reflect-2.13.6.jar;C:\Users\sbhch\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.13\1.2.0\scala-xml_2.13-1.2.0.jar
+[debug] Scala compilation took 7.277584 s
+[info] done compiling

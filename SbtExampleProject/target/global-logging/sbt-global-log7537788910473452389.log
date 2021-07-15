@@ -1,0 +1,48 @@
+[debug] > Exec(~run, None, None)
+[debug] > Exec(__runWatch console0, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(__preWatch console0, None, None)
+[debug] > Exec(run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 2 Scala sources to C:\Users\sbhch\IdeaProjects\SbtExampleProject\target\scala-2.13\classes ...
+[error] C:\Users\sbhch\IdeaProjects\SbtExampleProject\src\main\scala\example\SimpleParser.scala:2:19: object parsing is not a member of package util
+[error] import scala.util.parsing.combinator._
+[error]                   ^
+[error] C:\Users\sbhch\IdeaProjects\SbtExampleProject\src\main\scala\example\SimpleParser.scala:8:28: not found: type RegexParsers
+[error] class SimpleParser extends RegexParsers {
+[error]                            ^
+[error] C:\Users\sbhch\IdeaProjects\SbtExampleProject\src\main\scala\example\SimpleParser.scala:17:5: not found: value parse
+[error]     parse(freq, "johnny 121") match {
+[error]     ^
+[error] C:\Users\sbhch\IdeaProjects\SbtExampleProject\src\main\scala\example\SimpleParser.scala:12:13: not found: type Parser
+[error]   def freq: Parser[WordFreq]  = word ~ number         ^^  {case wd ~ fr => WordFreq(wd, fr)}
+[error]             ^
+[error] C:\Users\sbhch\IdeaProjects\SbtExampleProject\src\main\scala\example\SimpleParser.scala:18:12: not found: value Success
+[error]       case Success(matched, _) => println(matched)
+[error]            ^
+[error] C:\Users\sbhch\IdeaProjects\SbtExampleProject\src\main\scala\example\SimpleParser.scala:19:12: not found: value Failure
+[error]       case Failure(msg, _) => println(s"FAILURE: $msg")
+[error]            ^
+[error] C:\Users\sbhch\IdeaProjects\SbtExampleProject\src\main\scala\example\SimpleParser.scala:20:12: class Error is not a case class, nor does it have a valid unapply/unapplySeq member
+[error]       case Error(msg, _) => println(s"ERROR: $msg")
+[error]            ^
+[error] C:\Users\sbhch\IdeaProjects\SbtExampleProject\src\main\scala\example\SimpleParser.scala:10:13: not found: type Parser
+[error]   def word: Parser[String]    = """[a-z]+""".r        ^^  {_.toString}
+[error]             ^
+[error] C:\Users\sbhch\IdeaProjects\SbtExampleProject\src\main\scala\example\SimpleParser.scala:10:55: value ^^ is not a member of scala.util.matching.Regex
+[error]   def word: Parser[String]    = """[a-z]+""".r        ^^  {_.toString}
+[error]                                                       ^
+[error] C:\Users\sbhch\IdeaProjects\SbtExampleProject\src\main\scala\example\SimpleParser.scala:11:15: not found: type Parser
+[error]   def number: Parser[Int]     = """(0|[1-9]\d*)""".r  ^^  {_.toInt}
+[error]               ^
+[error] C:\Users\sbhch\IdeaProjects\SbtExampleProject\src\main\scala\example\SimpleParser.scala:11:55: value ^^ is not a member of scala.util.matching.Regex
+[error]   def number: Parser[Int]     = """(0|[1-9]\d*)""".r  ^^  {_.toInt}
+[error]                                                       ^
+[error] 11 errors found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 0 s, completed Jul 14, 2021, 2:00:36 PM
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(__postWatch console0, None, None)
+[debug] > Exec(__waitWatch console0, None, None)

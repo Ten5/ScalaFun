@@ -1,0 +1,25 @@
+[debug] Packaging C:\Users\sbhch\IdeaProjects\SbtExampleProject\target\scala-2.13\sbtexampleproject_2.13-0.1.jar ...
+[debug] Input file mappings:
+[debug] 	CubeCalculator$.class
+[debug] 	  C:\Users\sbhch\IdeaProjects\SbtExampleProject\target\scala-2.13\classes\CubeCalculator$.class
+[debug] 	CubeCalculator.class
+[debug] 	  C:\Users\sbhch\IdeaProjects\SbtExampleProject\target\scala-2.13\classes\CubeCalculator.class
+[debug] 	example
+[debug] 	  C:\Users\sbhch\IdeaProjects\SbtExampleProject\target\scala-2.13\classes\example
+[debug] 	example\Main$.class
+[debug] 	  C:\Users\sbhch\IdeaProjects\SbtExampleProject\target\scala-2.13\classes\example\Main$.class
+[debug] 	example\Main$delayedInit$body.class
+[debug] 	  C:\Users\sbhch\IdeaProjects\SbtExampleProject\target\scala-2.13\classes\example\Main$delayedInit$body.class
+[debug] 	example\Main.class
+[debug] 	  C:\Users\sbhch\IdeaProjects\SbtExampleProject\target\scala-2.13\classes\example\Main.class
+[debug] 	example\SimpleParser.class
+[debug] 	  C:\Users\sbhch\IdeaProjects\SbtExampleProject\target\scala-2.13\classes\example\SimpleParser.class
+[debug] 	example\TestSimpleParser$.class
+[debug] 	  C:\Users\sbhch\IdeaProjects\SbtExampleProject\target\scala-2.13\classes\example\TestSimpleParser$.class
+[debug] 	example\TestSimpleParser.class
+[debug] 	  C:\Users\sbhch\IdeaProjects\SbtExampleProject\target\scala-2.13\classes\example\TestSimpleParser.class
+[debug] 	example\WordFreq$.class
+[debug] 	  C:\Users\sbhch\IdeaProjects\SbtExampleProject\target\scala-2.13\classes\example\WordFreq$.class
+[debug] 	example\WordFreq.class
+[debug] 	  C:\Users\sbhch\IdeaProjects\SbtExampleProject\target\scala-2.13\classes\example\WordFreq.class
+[debug] Done packaging.
