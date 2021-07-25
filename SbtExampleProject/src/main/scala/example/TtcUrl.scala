@@ -22,4 +22,3 @@ object TtcUrl {
   def apply(searchField: String): TtcUrl =
     new TtcUrl(baseLink, searchField.isBlank ?? (searchType, searchField))
 }
-Q
